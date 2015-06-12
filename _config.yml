@@ -1,0 +1,29 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://kakeibo.swalloworkstudio.com
+title: 天天记账
+email: swalloworks@gmail.com
+author: Your Name
+description: "记账 账本 理财 消费 支出 收支 发票 免费 简单 账单 方便 人气 账簿 记账簿 收据 管理 钱 管钱 管家 节约 省钱 推荐 挖财 jizhang expense spend 家計簿 零花钱"
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: 微博
+    url: http://www.weibo.com/u/5488924193
+  - title: twitter
+    url: http://twitter.com/swalloworks    
+  - title: linkedin
+    url: http://jp.linkedin.com/pub/xuan-renliang/40/68/ba4

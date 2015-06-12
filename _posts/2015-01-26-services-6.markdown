@@ -1,0 +1,8 @@
+---
+layout: default
+img: voice.png
+category: Services
+title: 来自五湖四海的用户心声
+description: |
+---
+  天天记账自上线以来，得到了用户广泛的好评和鼓励。在此特此感谢大家的厚爱。你们的支持是我们前进的动力，我们会努力让天天记账变得越来越贴心。

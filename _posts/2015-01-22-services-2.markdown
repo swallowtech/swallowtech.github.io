@@ -1,0 +1,8 @@
+---
+layout: default
+img: receipt.png
+category: Services
+title: 轻松管理收据发票
+description: |
+---
+  简单的一张照片，让收支明细有据可查。收据夹功能让收据查阅行云流水，赏心悦目。

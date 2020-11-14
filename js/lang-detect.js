@@ -3,11 +3,11 @@
  */
 var userLang = navigator.language || navigator.userLanguage;
 
-if(userLang == "zh-CN" || userLang == "zh") {
-    console.log(userLang);
+if(userLang == "zh-CN" || userLang == "zh-cn" || userLang == "zh") {
+    //console.log(userLang);
 }
 else {
-    console.log(userLang);
+    //console.log(userLang);
     redirect(userLang);
 }
 

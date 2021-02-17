@@ -1,9 +1,10 @@
 /*
  Detects the browser language
  */
-var userLang = navigator.language || navigator.userLanguage;
-
-if(userLang == "zh-CN" || userLang == "zh-cn" || userLang == "zh") {
+var userLang = navigator.language || navigator.userLanguage || 'zh';
+userLang = userLang.toLowerCase();
+console.log(userLang);
+if(userLang == "zh-cn" || userLang == "zh") {
     //console.log(userLang);
 }
 else {
@@ -21,13 +22,13 @@ function redirect(actuallang){
     case 'ja':
       url ='http://kakeibo.swalloworkstudio.com';
       break;
-    case 'zh-TW':
+    case 'zh-tw':
       url ='http://tiantianjizhang-tw.swalloworkstudio.com';
       break;
-    case 'zh-HK':
+    case 'zh-hk':
         url ='http://tiantianjizhang-tw.swalloworkstudio.com';
         break;
-    case 'zh-CN':
+    case 'zh-cn':
             url ='http://tiantianjizhang.swalloworkstudio.com';
             break;     
     default:

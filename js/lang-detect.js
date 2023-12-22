@@ -9,7 +9,15 @@ if(userLang == "zh-cn" || userLang == "zh") {
 }
 else {
     //console.log(userLang);
-    redirect(userLang);
+    // 如果url中有lang参数，就不再跳转
+    var url = window.location.href;
+    if(url.indexOf("?lang=") != -1) {
+        //console.log("url中有lang参数");
+    }
+    else {
+        //console.log("url中没有lang参数");
+        redirect(userLang);
+    }
 }
 
 /*

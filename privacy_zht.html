@@ -1,60 +1,175 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="zh-Hant">
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>隱私權政策</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="天天記帳隱私權政策：了解記帳資料、雲端備份、廣告、使用統計及客服資料的處理方式，以及您的資料管理與刪除權利。">
+    <title>天天記帳隱私權政策</title>
+    <style>
+        :root { color-scheme: light; }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            background: #fff;
+            color: #252525;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Microsoft JhengHei", sans-serif;
+            font-size: 1rem;
+            line-height: 1.85;
+            overflow-wrap: anywhere;
+        }
+        main, footer { width: min(100% - 40px, 900px); margin-inline: auto; }
+        main { padding-block: 40px 24px; }
+        header { border-bottom: 1px solid #ddd; padding-bottom: 20px; }
+        h1 { font-size: clamp(1.75rem, 5vw, 2.25rem); line-height: 1.4; margin: 0 0 12px; }
+        h2 { font-size: 1.3rem; line-height: 1.5; margin: 32px 0 12px; }
+        p { margin: 0 0 16px; }
+        ul { padding-inline-start: 1.5em; margin: 0 0 20px; }
+        li { margin-bottom: 10px; }
+        a { color: #145c9e; text-underline-offset: 3px; }
+        a:focus-visible { outline: 2px solid #145c9e; outline-offset: 4px; }
+        .updated, footer { color: #595959; }
+        footer { border-top: 1px solid #ddd; padding-block: 20px 32px; font-size: .875rem; }
+        address { font-style: normal; }
+        @media print {
+            main, footer { width: 100%; }
+            main { padding-top: 0; }
+            h2 { break-after: avoid; }
+            a { color: inherit; }
+        }
+    </style>
 </head>
-
 <body>
-    <div class="container" style="margin-top: 20px;">
-        <h2>天天記賬隱私權政策</h2>
-        <p class="bd-lead">尊重用戶隱私是天天記賬的基本原則，本隱私政策旨在闡明天天記賬如何處理用戶個人信息。</p>
-        <hr>
-    </div>
-    <div class="container">
-        <h3>個人信息的收集</h3>
-        <p class="bd-lead">
-            天天記賬沒有收集姓名，地址，電子郵件地址，性別，出生日期等可以識別個人的信息。
-        </p>
-        <p class="bd-lead">
-            廣告投放天天記賬使用Google的admob廣告服務進行。<br>
-            您可以訪問<a href="https://policies.google.com/privacy?hl=zh-tw">https://policies.google.com/privacy?hl=zh-tw</a>查看Admob的隱私權政策。
-        </p>
-        <hr>
-    </div>
-    <div class="container">
-        <h3>個人信息的第三方共享</h3>
-        <p class="bd-lead">天天記賬不向第三方提供可識別個人的信息。 </p>
-        <hr>
-    </div>
-    <div class="container">
-        <h3>隱私權政策的更改</h3>
-        <p class="bd-lead">天天記賬將相應地審查，改進和修訂隱私權政策。當我們更改隱私權政策時，我們會在此頁面上公佈。 </p>
-        <hr>
-    </div>
-    <div class="container">
-        <h3>免責事項</h3>
-        <p class="bd-lead">開發者不對用戶使用此服務造成的損害負責。 </p>
-        <hr>
-    </div>
-    <footer class="mastfoot mt-auto">
-        <div class="container">
-            <p class="copyright text-muted small">Copyright &copy; Swalloworks Studio All Rights Reserved</p>
-        </div>
+    <main>
+        <article aria-labelledby="policy-title">
+            <header>
+                <h1 id="policy-title">天天記帳隱私權政策</h1>
+                <p class="updated">更新日期：<time datetime="2026-09-30">2026 年 9 月 30 日</time></p>
+                <p>本隱私權政策適用於全球使用者，涵蓋天天記帳 iOS App、Apple Watch 配套 App，以及相關備份、同步與客服服務。</p>
+                <p>本政策說明我們如何處理您的資料，以及您可以如何管理資料、調整授權或提出刪除要求。</p>
+            </header>
+
+            <section aria-labelledby="local-data">
+                <h2 id="local-data">一、記帳資料與本機儲存</h2>
+                <p>您在天天記帳中建立或匯入的資料，可能包含收支紀錄、帳戶與餘額、預算、分類、成員、備註、收據照片、電子發票、貸款及投資紀錄等。</p>
+                <p>這些資料用於提供記帳、查詢、計算、報表及相關功能，並儲存於您的裝置。當您啟用雲端備份、雲端帳本、共享功能，或主動向客服提供資料時，相關內容也會依您使用的功能傳送至對應服務。</p>
+                <p>我們不會將您的帳本內容、收據照片或電子發票明細提供給廣告服務，用於建立個人化廣告受眾，也不會將這些內容出售或用於 AI 模型訓練。</p>
+            </section>
+
+            <section aria-labelledby="icloud">
+                <h2 id="icloud">二、iCloud 備份、同步與共享帳本</h2>
+                <p>當您使用 iCloud 備份或雲端帳本時，相關記帳資料、設定及依功能包含的照片，會透過 Apple 的 iCloud 服務儲存或同步。</p>
+                <p>若您分享帳本或加入他人分享的帳本，共享範圍內的資料將依共享權限提供給參與者查閱或編輯。請在分享前確認帳本內容及參與對象。</p>
+                <p>停止同步、退出共享或刪除 App，不會自動刪除所有雲端備份，也無法收回其他參與者先前已匯出或另行保存的副本。您可透過 App 提供的管理功能及 Apple 的 iCloud 設定管理相關資料。</p>
+            </section>
+
+            <section aria-labelledby="google-drive">
+                <h2 id="google-drive">三、Google 登入與 Google Drive 備份</h2>
+                <p>使用 Google Drive 備份功能時，您需要自行選擇 Google 帳戶並授權存取。App 會取得授權範圍內的基本帳戶資訊，例如名稱、電子郵件地址及頭像，用於顯示目前連結的帳戶；並使用授權憑證執行備份、列出備份、還原及刪除等操作。我們不會取得您的 Google 帳戶密碼。</p>
+                <p>Google Drive 存取範圍包括本 App 的應用程式資料，以及由本 App 建立或經您授權存取的檔案。備份內容依您選擇的方式而異；目前自動備份不包含照片，手動備份可包含照片。</p>
+                <p>我們僅將透過 Google API 取得的資料用於上述使用者功能，不用於廣告投放、出售或 AI 模型訓練。相關使用及傳輸遵循 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 服務使用者資料政策</a>，包括適用的「有限使用」要求。</p>
+                <p>您可以在 App 中登出 Google 帳戶，並透過 Google 帳戶設定撤銷授權。登出或撤銷授權不會自動刪除既有備份；請另行使用備份管理功能刪除。</p>
+            </section>
+
+            <section aria-labelledby="invoices">
+                <h2 id="invoices">四、台灣電子發票功能</h2>
+                <p>當您使用電子發票掃描、查詢或載具匯入功能時，App 會依操作需要處理發票號碼、日期、隨機碼、QR Code 內容、載具條碼、驗證碼及查詢所需識別資料，並將必要資訊傳送至台灣財政部電子發票服務，以取得發票及消費明細。</p>
+                <p>相關設定與查詢結果可能儲存於裝置，匯入的記帳內容也可能納入您啟用的備份或同步功能。</p>
+                <p>您可以選擇不使用電子發票功能，或移除已設定的載具資料。移除載具設定不代表已匯入的記帳紀錄或既有備份會一併刪除。</p>
+            </section>
+
+            <section aria-labelledby="permissions">
+                <h2 id="permissions">五、Apple Watch、小工具與系統權限</h2>
+                <p>Apple Watch 配套 App 會與配對的 iPhone 傳送提供功能所需的資料，例如帳戶、分類、預算摘要及新增的記帳紀錄。小工具與 Siri 捷徑也會在您使用相關功能時存取所需資料。</p>
+                <p>App 可能依功能需要請求以下權限：</p>
+                <ul>
+                    <li><strong>相機：</strong>拍攝收據或掃描電子發票。</li>
+                    <li><strong>照片：</strong>選取收據照片，或將您選擇的圖片儲存至照片圖庫。</li>
+                    <li><strong>Face ID／Touch ID：</strong>使用系統驗證功能保護 App 存取；我們不會取得您的臉部或指紋生物辨識資料。</li>
+                    <li><strong>通知：</strong>提供您啟用的提醒或相關服務通知。</li>
+                    <li><strong>追蹤：</strong>在適用情況下，請求廣告識別與跨 App 追蹤授權。</li>
+                </ul>
+                <p>您可以透過裝置的系統設定管理相關權限。拒絕或撤銷權限可能使對應功能無法使用。</p>
+            </section>
+
+            <section aria-labelledby="advertising">
+                <h2 id="advertising">六、廣告服務</h2>
+                <p>天天記帳使用 Google AdMob 提供廣告。</p>
+                <p>廣告服務可能處理 IP 位址及其推估的大致位置、裝置或應用程式識別碼、廣告曝光與互動紀錄，以及效能與診斷資料，用於廣告提供、成效衡量、防止詐欺及改善服務。實際處理範圍會依您的所在地、授權選擇及服務設定而有所不同。詳情可參閱 <a href="https://developers.google.com/admob/ios/privacy/data-disclosure">Google 廣告 SDK 資料說明</a>。</p>
+                <p>在需要授權的情況下，我們會透過系統或廣告同意介面取得您的選擇。您可在 iOS「設定」中的「隱私權與安全性」→「追蹤」管理追蹤授權；當 App 提供「廣告隱私設定」入口時，也可透過該入口調整相關選擇。</p>
+                <p>拒絕追蹤不會阻止您使用基本記帳功能，也不代表所有廣告或廣告服務所需的資料處理均會停止。廣告追蹤設定與使用統計、當機診斷及雲端備份分別管理。</p>
+                <p>Google 如何處理相關資訊，可參閱 <a href="https://policies.google.com/privacy?hl=zh-TW">Google 隱私權政策</a>及 <a href="https://policies.google.com/technologies/partner-sites?hl=zh-TW">Google 合作夥伴網站與 App 資料使用說明</a>。</p>
+            </section>
+
+            <section aria-labelledby="analytics">
+                <h2 id="analytics">七、使用統計、當機診斷與功能設定</h2>
+                <p>我們使用 Google Analytics for Firebase、Firebase Crashlytics 及 Firebase Remote Config，了解功能使用情況、排查錯誤、改善穩定性並提供功能設定。</p>
+                <p>相關資料可能包括 App 與作業系統版本、裝置型號、應用程式或安裝識別碼、功能操作事件、錯誤資訊、當機紀錄及效能資料。</p>
+                <p>這些資料可能與應用程式或安裝識別碼關聯，因此不應視為完全匿名資料。我們不會主動將帳本明細、收據照片或電子發票驗證碼作為使用統計事件內容傳送。</p>
+                <p>相關處理與保留方式請參閱 <a href="https://firebase.google.com/support/privacy">Firebase 隱私與安全說明</a>。</p>
+            </section>
+
+            <section aria-labelledby="support">
+                <h2 id="support">八、客服聯絡與資料修復</h2>
+                <p>當您透過電子郵件或 App 內的意見回饋功能聯絡我們時，我們會處理您的電子郵件地址、訊息內容、附件，以及您提供的 App、裝置或問題識別資訊，用於回覆與排查問題。</p>
+                <p>如果您主動使用資料送付功能，App 會將您選擇提供的帳本資料，以及您選擇附上的照片，上傳至阿里雲香港區域的儲存服務，供客服排查或修復。</p>
+                <p>若您使用圖案鎖忘記密碼的客服功能，寄出的郵件也可能包含用於協助復原的圖案鎖相關資料及設定的電子郵件資訊。您可以在寄出前查看郵件內容。</p>
+                <p>客服上傳資料及客服電子郵件的保留期限為 <strong>7 天</strong>，期滿後刪除。您也可以寄信至 <a href="mailto:swalloworks@gmail.com">swalloworks@gmail.com</a> 申請提前刪除。我們僅為處理您的客服需求存取您提供的資料。</p>
+            </section>
+
+            <section aria-labelledby="purchases">
+                <h2 id="purchases">九、App 內購買與其他網路功能</h2>
+                <p>App 內購買及付款由 Apple 處理。App 會使用交易結果、購買憑證或購買狀態，以確認及還原您已購買的功能；我們不會取得您向 Apple 提供的完整信用卡或付款帳戶資料。</p>
+                <p>當您使用匯率、股價、假日資料或線上說明等功能時，App 會向相關網站或資料服務發出請求。提供服務所需的連線資訊，例如 IP 位址、請求時間及所請求的資源，可能由服務提供者處理。</p>
+            </section>
+
+            <section aria-labelledby="sharing-security">
+                <h2 id="sharing-security">十、資料分享、境外處理與安全</h2>
+                <p>我們僅在提供本政策所述功能、依您的指示或授權、履行適用法律義務，或處理必要的安全事件時，向相關服務提供者或其他對象提供所需資料。</p>
+                <p>相關服務包括 Apple、Google，以及您使用電子發票功能時的台灣財政部電子發票服務。您主動分享或匯出的資料，也會提供給您選擇的接收對象。</p>
+                <p>由於本服務供全球使用者使用，資料可能在台灣、香港或相關服務提供者營運的其他國家或地區處理。跨境處理會依適用法律及相關資料處理條款辦理。</p>
+                <p>我們會採取與資料性質及處理風險相稱的合理保護措施，並要求受託處理資料的服務提供者依適用法律及約定保護資料。請妥善管理您的裝置、雲端帳戶、共享權限及自行匯出的檔案。</p>
+            </section>
+
+            <section aria-labelledby="retention">
+                <h2 id="retention">十一、資料保留與刪除</h2>
+                <p>不同類型資料的保留方式如下：</p>
+                <ul>
+                    <li><strong>裝置內資料：</strong>依您的使用與刪除操作保留。請留意其他裝置、系統備份及您自行匯出的副本。</li>
+                    <li><strong>iCloud、Google Drive 備份及共享帳本：</strong>依您的設定、刪除操作與對應服務的處理機制保留。刪除本機紀錄不會自動清除所有歷史備份。</li>
+                    <li><strong>客服上傳資料與客服電子郵件：</strong>保留 7 天，或依您的提前刪除要求處理。</li>
+                    <li><strong>Crashlytics 診斷資料：</strong>依 Google 公開說明，當機堆疊及相關識別碼保留 90 天後，開始從正式及備份系統移除的程序。詳見 <a href="https://firebase.google.com/support/privacy">Firebase 保留規則</a>。</li>
+                    <li><strong>使用統計、功能設定及廣告資料：</strong>依本服務採用的預設設定、資料用途及對應服務的保留規則處理。Google Analytics 的使用者及事件資料與彙總報表可能適用不同規則，詳見 <a href="https://support.google.com/analytics/answer/7667196">Google Analytics 資料保留說明</a>。</li>
+                </ul>
+                <p>解除安裝 App、登出雲端帳戶或關閉追蹤授權，不等於刪除先前已傳送至相關服務的資料。</p>
+            </section>
+
+            <section aria-labelledby="rights">
+                <h2 id="rights">十二、您的選擇與權利</h2>
+                <p>依您所在地適用的法律，您可能有權要求查詢、閱覽、取得複本、更正、刪除、限制或停止處理您的個人資料，或要求資料可攜。以同意為基礎的處理，您可依法撤回同意；撤回不影響撤回前處理行為的效力。</p>
+                <p>您可使用 App 的編輯、刪除、匯出、備份管理及共享管理功能，也可透過系統、Apple 或 Google 帳戶設定管理相關授權。</p>
+                <p>如需提出隱私權要求，請聯絡 <a href="mailto:swalloworks@gmail.com">swalloworks@gmail.com</a>。我們可能請您提供必要資訊，以確認要求是否與您的資料有關，並依適用法律處理。若資料僅存在您的裝置或個人雲端帳戶，我們可能需要提供操作指引，由您自行管理。</p>
+                <p>您也可依所在地法律向主管機關提出申訴。對於廣告相關的資料分享，若適用法律賦予退出出售、分享或定向廣告的權利，您可透過可用的廣告隱私設定或上述聯絡方式提出要求。</p>
+            </section>
+
+            <section aria-labelledby="children">
+                <h2 id="children">十三、兒童隱私</h2>
+                <p>天天記帳為一般用途的記帳工具，並非專為兒童設計。</p>
+                <p>若您是家長或監護人，認為兒童在未取得依法所需授權的情況下向我們提供個人資料，請聯絡我們。我們會依適用法律確認並處理相關資料。</p>
+            </section>
+
+            <section aria-labelledby="contact">
+                <h2 id="contact">十四、政策更新與聯絡方式</h2>
+                <p>我們可能因功能、服務提供者或法律要求變更而更新本政策，並於本頁標示更新日期。涉及重要資料處理變更時，我們會依適用法律提供通知，並在必要時重新取得同意。</p>
+                <p>如對本政策或個人資料處理有任何問題，請聯絡：</p>
+                <address>
+                    營運者：<strong>Swallow Works Studio</strong><br>
+                    電子郵件：<a href="mailto:swalloworks@gmail.com">swalloworks@gmail.com</a>
+                </address>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2026 Swallow Works Studio. All rights reserved.</p>
     </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
 </html>
